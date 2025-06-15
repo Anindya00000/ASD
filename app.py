@@ -13,7 +13,7 @@ with open("scaler_selective.pkl", "rb") as f:
 
 # Config
 st.set_page_config(page_title="Autism Prediction", layout="wide")
-st.title("🧠 Autism Prediction App (AQ-10 Based)")
+st.title("🧠 Autism Prediction System")
 
 # Column lists
 training_columns = ['A1_Score', 'A2_Score', 'A3_Score', 'A4_Score', 'A5_Score', 'A6_Score',
